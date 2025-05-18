@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <p>Welcome</p>
+      <p>Track Mate</p>
     </div>
   );
 }
