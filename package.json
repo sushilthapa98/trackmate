@@ -1,7 +1,8 @@
 {
-  "name": "trackmate",
+  "name": "@sushilthapa98/trackmate",
   "version": "0.1.0",
-  "private": true,
+  "packageManager": "pnpm@9.3.0+sha256.e1f9e8d1a16607a46dd3c158b5f7a7dc7945501d1c6222d454d63d033d1d918f",
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -29,5 +30,24 @@
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.0",
     "typescript": "^5"
+  },
+  "description": "Simple library to keep track of your personal things",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushilthapa98/trackmate.git"
+  },
+  "keywords": [
+    "personal-tracker",
+    "personal-reminder",
+    "event-tracker"
+  ],
+  "author": "Sushil Thapa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sushilthapa98/trackmate/issues"
+  },
+  "homepage": "https://github.com/sushilthapa98/trackmate#readme",
+  "publishConfig": {
+    "access": "public"
   }
 }
