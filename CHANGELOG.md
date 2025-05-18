@@ -1,5 +1,11 @@
 # @sushilthapa98/trackmate
 
+## 0.1.2
+
+### Patch Changes
+
+- 6d82a11: add release script
+
 ## 0.1.1
 
 ### Patch Changes
