@@ -11,7 +11,9 @@
     "lint:fix": "next lint --fix",
     "format": "prettier --write .",
     "type-check": "tsc --noEmit",
-    "prepare": "husky"
+    "prepare": "husky",
+    "release": "changeset publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.2",
